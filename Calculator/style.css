@@ -1,0 +1,116 @@
+
+  body{
+    padding: 0 ;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(0, 0, 255, 0.349); 
+     background: url(img/calculator-money-notepad-orange-background-copy-space_169016-24503.avif);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+  }
+  .display #screen{
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    padding-right:.4em ;
+    text-align: right;
+    background: #ecf0f3;
+    border-radius: 32px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #e5e0e0;  
+}
+  .container
+  {
+    width: 40%;
+    height: 45vh;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 20px #cbced1,
+              -12px -12px 20px #ffffff;
+  }
+
+  
+   
+
+.btns {
+    width: 100%;
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.btns .row button {
+
+    /* padding: 10px;   */
+    width: 70px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffff;
+              
+}
+.btns .row button:hover{
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+                inset -5px -5px 8px #fff;
+    background: #fff;
+}
+#eval{
+    background: #33ccff;
+    color: #fff;
+}
+#eval:hover
+{
+    box-shadow: inset 5px 5px 8px #66d9ff,
+                inset -5px -5px 8px #00ace6;
+}
+
+#ac{
+    background: #33cc33;
+    color: #fff ;
+   
+}
+#ac:hover
+{
+    box-shadow: inset 5px 5px 8px #2eb82e,
+                inset -5px -5px 8px #33cc33;
+}
+
+#ce{
+    background: #ff3399;
+    color: #fff;
+    
+}
+#ce:hover
+{
+    box-shadow: inset 5px 5px 8px #e600e6,
+                inset -5px -5px 8px #e600e6;
+}
+
+/* @media (min-width: 768px) {
+  /* Adjust styles for screens wider than 768px */
+   /* Increase the maximum width for larger screens */
+   @media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust as needed for smaller screens */
+        /* Other styles... */
+    }
+    
+    /* Adjust button sizes, font sizes, and other styles as needed for smaller screens */
+}
+@media (max-width: 768px) {
+  body {
+      background: #f0f0f0; /* Change background color or remove the image */
+  }
+}
+
